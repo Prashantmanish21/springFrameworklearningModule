@@ -11,6 +11,7 @@ public class TestEmp {
 		Employee emp=(Employee)context.getBean("bean1");
 		System.out.println(emp);
 		
+		
 		System.out.println(emp.getCourses().get("subs"));
 		System.out.println(emp.getAddresses().toString());
 		System.out.println(emp.getAddresses());

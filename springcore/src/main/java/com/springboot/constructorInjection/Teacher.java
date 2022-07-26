@@ -11,6 +11,7 @@ public class Teacher {
 		this.id = id;
 		this.subject = subject;
 	}
+	
 	public Teacher() {
 		super();
 		// TODO Auto-generated constructor stub

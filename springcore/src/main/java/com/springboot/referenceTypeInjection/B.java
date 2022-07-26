@@ -13,6 +13,7 @@ public class B {
 		this.y = y;
 	}
 
+	
 	public int getY() {
 		return y;
 	}

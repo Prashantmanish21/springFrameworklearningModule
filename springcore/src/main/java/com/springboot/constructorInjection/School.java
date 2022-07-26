@@ -8,6 +8,7 @@ public class School {
 	private List<Student>student;
 	private Set<Teacher>teacher;
 	
+	
 	public School() {
 		super();
 		// TODO Auto-generated constructor stub

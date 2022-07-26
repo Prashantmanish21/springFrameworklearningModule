@@ -13,6 +13,7 @@ public class A {
 		this.x = x;
 		this.obj = obj;
 	}
+	
 	public int getX() {
 		return x;
 	}

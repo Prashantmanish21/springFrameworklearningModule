@@ -19,6 +19,7 @@ public class Student {
 	public int getStudentId() {
 		return studentId;
 	}
+	
 	public void setStudentId(int studentId) {
 		//System.out.println("setting student id");
 		this.studentId = studentId;

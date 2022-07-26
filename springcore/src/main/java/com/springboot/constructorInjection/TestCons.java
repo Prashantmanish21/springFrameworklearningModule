@@ -13,6 +13,7 @@ public class TestCons {
 		System.out.println(sch);
 		System.out.println(sch.getStudent().get(0).getName());
 		System.out.println(sch.getTeacher());
+		
 	}
 
 }

@@ -22,6 +22,7 @@ https://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
 	</bean>
+	
 
 	<bean class="com.springboot.springcore.Student" name="student2">
 		<property name="studentId" value="1101" />

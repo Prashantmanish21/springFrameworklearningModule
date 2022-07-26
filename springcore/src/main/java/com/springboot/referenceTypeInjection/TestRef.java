@@ -12,5 +12,6 @@ public class TestRef {
         System.out.println(a.add());
         System.out.println(a.getObj().getY());
 	}
+	
 
 }

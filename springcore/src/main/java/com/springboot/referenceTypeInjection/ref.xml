@@ -17,6 +17,7 @@ https://www.springframework.org/schema/beans/spring-beans.xsd">
 </bean>
 /!-->
 
+
 <bean class="com.springboot.referenceTypeInjection.A" name="a" p:x="9" p:obj-ref="b"/>
 
 </beans>

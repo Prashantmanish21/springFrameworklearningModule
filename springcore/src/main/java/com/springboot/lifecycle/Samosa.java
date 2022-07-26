@@ -17,6 +17,7 @@ public class Samosa {
 		return price;
 	}
 
+	
 	public void setPrice(double price) {
 		System.out.println("setting property");
 		this.price = price;
