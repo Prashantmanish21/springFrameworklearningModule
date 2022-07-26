@@ -19,6 +19,7 @@ public class TestLifeCycle {
 		AbstractApplicationContext context=new ClassPathXmlApplicationContext("com/springboot/lifecycle/lifecycle.xml");
 		
 		
+		
 		Samosa sam=(Samosa)context.getBean("sam");
 		System.out.println(sam.toString());
 		

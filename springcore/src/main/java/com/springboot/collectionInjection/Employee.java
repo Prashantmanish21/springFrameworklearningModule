@@ -9,7 +9,6 @@ public class Employee {
 	private Map<String,String>courses;
 	
 	
-	
 	public Employee() {
 		super();
 		// TODO Auto-generated constructor stub

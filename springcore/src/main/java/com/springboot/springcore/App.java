@@ -14,6 +14,7 @@ public class App {
 
 		Student student = (Student) context.getBean("student1");
 		System.out.println(student);
+	
 		
 		Student stu=(Student)context.getBean("student2");
 	

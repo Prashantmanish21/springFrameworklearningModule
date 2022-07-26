@@ -13,6 +13,7 @@ public class TestAmb {
 		
 		add1.doSum();
 		add.doSumagain();
+	
 		
 	}
 

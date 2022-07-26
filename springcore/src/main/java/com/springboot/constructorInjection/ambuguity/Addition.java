@@ -11,7 +11,6 @@ public class Addition {
 
 	}
 	
-	
 	public Addition(int a, int b) {
 		super();
 		this.a = a;
