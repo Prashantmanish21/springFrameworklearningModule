@@ -15,6 +15,7 @@ https://www.springframework.org/schema/beans/spring-beans.xsd">
 			</list>
 		</property>
 
+
 		<property name="addresses">
 			<set>
 				<value>london</value>
