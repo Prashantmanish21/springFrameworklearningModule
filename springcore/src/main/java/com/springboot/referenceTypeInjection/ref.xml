@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p" xsi:schemaLocation="http://www.springframework.org/schema/beans
+https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean class="com.springboot.referenceTypeInjection.B" name="b">
+   <property name="y" value="10"/>
+
+</bean>
+ <!--
+<bean class="com.springboot.referenceTypeInjection.A" name="a">
+   <property name="x" value="9"/>
+   <property name="obj" ref="b"/>
+      <ref bean="b"/> 
+   
+   </property>
+
+</bean>
+/!-->
+
+<bean class="com.springboot.referenceTypeInjection.A" name="a" p:x="9" p:obj-ref="b"/>
+
+</beans>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns:context="http://www.springframework.org/schema/context" 
+xmlns:p="http://www.springframework.org/schema/p" 
+xmlns:c="http://www.springframework.org/schema/c"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean class="com.springboot.constructorInjection.Student" name="stud1" c:name="jack sparrow" c:id="21" c:age="15"/>
+<bean class="com.springboot.constructorInjection.Student" name="stud2" c:name="mangal pandey" c:id="22" c:age="20"/>
+<bean class="com.springboot.constructorInjection.Teacher" name="teach1" c:name="Amber Heard" c:id="420" c:subject="maths"/>
+<bean class="com.springboot.constructorInjection.Teacher" name="teach2" c:name="kiara advani" c:id="36" c:subject="biology"/>
+<bean class="com.springboot.constructorInjection.School" name="sch">
+   <constructor-arg >
+      <value>10</value>
+   </constructor-arg >
+   <constructor-arg>
+    <list>
+       <ref bean="stud1"/>
+       <ref bean="stud2"/>
+    </list>
+   </constructor-arg>
+   
+   <constructor-arg>
+     <set>
+        <ref bean="teach1" />
+        <ref bean="teach2" />
+     </set>
+   </constructor-arg>
+</bean>
+
+</beans>
