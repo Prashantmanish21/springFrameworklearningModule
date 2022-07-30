@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p" xsi:schemaLocation="http://www.springframework.org/schema/beans
+https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<!-- byName autowiring-->
+<!-- <bean class="com.springboot.autowiring.withXml.Ingredients" name="ingredients1">
+   <property name="flour" value="maida"/>
+   <property name="salt" value="tata namak"/>
+   <property name="quantity" value="0.5"/>
+   <property name="sauce" value="tomato sauce"/>
+   
+</bean>
+ <bean class="com.springboot.autowiring.withXml.Time" name="time1">
+    <property name="time" value="30 MIN"/>
+</bean>
+
+<bean class="com.springboot.autowiring.withXml.Pizza" name="pizz" autowire="byName" />   -->
+
+<!-- byType autowiring-->
+ <!--<bean class="com.springboot.autowiring.withXml.Ingredients" name="ingredients1">
+   <property name="flour" value="maida"/>
+   <property name="salt" value="tata namak"/>
+   <property name="quantity" value="0.5"/>
+   <property name="sauce" value="tomato sauce"/>
+   
+</bean> 
+
+ <bean class="com.springboot.autowiring.withXml.Ingredients" name="ingredients">
+   <property name="flour" value="maidaatta"/>
+   <property name="salt" value="tata namak desh ka namak"/>
+   <property name="quantity" value="0.5"/>
+   <property name="sauce" value="tomato sauce puree"/>
+   
+</bean>
+ <bean class="com.springboot.autowiring.withXml.Time" name="time">
+    <property name="time" value="30 MIN"/>
+</bean>
+
+ <bean class="com.springboot.autowiring.withXml.Pizza" name="pizz" autowire="byType" /> -->
+ 
+ 
+ <bean class="com.springboot.autowiring.withXml.Ingredients" name="ingredients">
+   <property name="flour" value="maida"/>
+   <property name="salt" value="tata namak"/>
+   <property name="quantity" value="0.5"/>
+   <property name="sauce" value="tomato sauce"/>
+   
+</bean> 
+ 
+  <bean class="com.springboot.autowiring.withXml.Ingredients" name="ingredients1">
+   <property name="flour" value="maidaatta"/>
+   <property name="salt" value="tata namak desh ka namak"/>
+   <property name="quantity" value="0.5"/>
+   <property name="sauce" value="tomato sauce puree"/>
+   
+</bean>
+ <bean class="com.springboot.autowiring.withXml.Time" name="time">
+    <property name="time" value="30 MIN"/>
+</bean>
+
+ <bean class="com.springboot.autowiring.withXml.Pizza" name="pizz" autowire="constructor" />
+ 
+ </beans>
+ 

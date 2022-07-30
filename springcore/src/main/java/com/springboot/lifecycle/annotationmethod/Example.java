@@ -1,5 +1,6 @@
 package com.springboot.lifecycle.annotationmethod;
 
+
 public class Example {
 	private String subject;
 	

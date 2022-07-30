@@ -8,7 +8,7 @@
 
 	<name>springcore</name>
 	<url>http://maven.apache.org</url>
-	
+
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -36,7 +36,12 @@
 			<artifactId>spring-context</artifactId>
 			<version>5.3.22</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/javax.annotation/javax.annotation-api -->
+		
+		
+		
 
 
 	</dependencies>
+	
 </project>
